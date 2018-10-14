@@ -1,0 +1,8 @@
+node_modules
+db.json
+coverage
+/task-ui/dist
+/task-ui/node_modules
+/task-library/node_modules
+
+

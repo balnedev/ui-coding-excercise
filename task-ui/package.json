@@ -1,0 +1,35 @@
+{
+  "name": "task-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "task-library": "file:../task-library"
+  },
+  "engines": {
+    "node": "8.4.9",
+    "npm": "5.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "Babel": "0.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+  
+}
