@@ -5,6 +5,9 @@
 
 git clone https://github.com/balnedev/ui-coding-excercise.git
 
+# install the node moduels 
+
+run npm i from ui-coding-exercise && task-ui && task-library folders 
 
 ## Start the server from the root directory  (ui-coding-excercise)
 npm run server
